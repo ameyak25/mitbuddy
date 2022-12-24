@@ -1,0 +1,261 @@
+<resources>
+    <string name="app_name">College</string>
+    <string name="mit">MAHAKAL INSTITUTE OF TECHNOLOGY</string>
+    <string name="welcome">WELCOME</string>
+    <string name="title_activity_main2">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_institutions">Institutes</string>
+    <string name="large_text">
+        "Material is the metaphor.\n\n"
+
+        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+        "technologically advanced and open to imagination and magic.\n"
+        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+        "flexibility of the material creates new affordances that supercede those in the physical "
+        "world, without breaking the rules of physics.\n"
+        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+        "interact, and exist in space and in relation to each other. Realistic lighting shows "
+        "seams, divides space, and indicates moving parts.\n\n"
+
+        "Bold, graphic, intentional.\n\n"
+
+        "The foundational elements of print based design typography, grids, space, scale, color, "
+        "and use of imagery guide visual treatments. These elements do far more than please the "
+        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+        "imagery, large scale typography, and intentional white space create a bold and graphic "
+        "interface that immerse the user in the experience.\n"
+        "An emphasis on user actions makes core functionality immediately apparent and provides "
+        "waypoints for the user.\n\n"
+
+        "Motion provides meaning.\n\n"
+
+        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
+        "inflection points that initiate motion, transforming the whole design.\n"
+        "All action takes place in a single environment. Objects are presented to the user without "
+        "breaking the continuity of experience even as they transform and reorganize.\n"
+        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
+        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
+
+        "3D world.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+
+        "Component elevations.\n\n"
+
+        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
+        "does not vary from 6dp in one app to 16dp in another app).\n"
+        "Components may have different resting elevations across platforms, depending on the depth "
+        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+
+        "Responsive elevation and dynamic elevation offsets.\n\n"
+
+        "Some component types have responsive elevation, meaning they change elevation in response "
+        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
+        "changes are consistently implemented using dynamic elevation offsets.\n"
+        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
+        "to the component’s resting state. They ensure that elevation changes are consistent "
+        "across actions and component types. For example, all components that lift on press have "
+        "the same elevation change relative to their resting elevation.\n"
+        "Once the input event is completed or cancelled, the component will return to its resting "
+        "elevation.\n\n"
+
+        "Avoiding elevation interference.\n\n"
+
+        "Components with responsive elevations may encounter other components as they move between "
+        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
+        "through other material, components avoid interfering with one another any number of ways, "
+        "whether on a per component basis or using the entire app layout.\n"
+        "On a component level, components can move or be removed before they cause interference. "
+        "For example, a floating action button (FAB) can disappear or move off screen before a "
+        "user picks up a card, or it can move if a snackbar appears.\n"
+        "On the layout level, design your app layout to minimize opportunities for interference. "
+        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
+        "when a user tries to pick up one of cards.\n\n"
+    </string>
+    <string name="quality">Our organization is committed to be an academic institution dedicated for excellence in education and technological services. Through continual efforts for improvement in quality and delivering value in education, students would be empowered with technical and professional skills</string>
+    <string name="large">Our organization is committed to be an academic institution dedicated for excellence in education and technological services. Through continual efforts for improvement in quality and delivering value in education, students would be empowered with technical and professional skills.</string>
+    <string name="student">StudentSection</string>
+    <string name="mit_institution">MIT INSTITUTION</string>
+    <string name="description">About Mahakal Institute Of Technology</string>
+    <string name="vision">MIT Group of Institutes, Ujjain has continued to preserve its founding spirit of \'Always Students First\' and we cultivate students with the best Academic practices, theories, resources and standards that matches all over the world. Committed to excellence in fundamental research as well as development of innovative technologies, MIT group, Ujjain offers a quality research training experience for its students. We focus not only on the career oriented growth but offers versatility and a positive value system in students that shapes their attitude and conduct thus providing them a strong foundation to face future challenges. We facilitates various training and placement activities for the students and ensure for their placements in the best of both National and International companies.</string>
+    <string name="courses">Courses offered</string>
+    <string name="b_tech_m_e_in_electronics_and_electrical_enginnering">B.Tech/M.E in Electronics and Electrical Enginnering</string>
+    <string name="b_tech_m_e_in_electronics_and_electrical_Enginnering">course1</string>
+    <string name="course1">B.TECH/M.E in electronics and communication</string>
+    <string name="course2">B.Tech. / M.Tech. Information Technology Engineering</string>
+    <string name="course3">B.Tech./ Diploma Computer Science and Engineering:</string>
+    <string name="course4">B.Tech./ M.E. Mechanical Engineering</string>
+    <string name="b_tech_diploma_civil_engineering">B.Tech./Diploma Civil Engineering</string>
+    <string name="management_program_m_b_a">Management Program (M.B.A.)</string>
+    <string name="why">Why choose MIT group of Institutions</string>
+    <string name="detail">At MIT, we strongly believe that when in-depth study with modern teaching techniques is combined with practical application of knowledge and the code of ethics, it maximizes one’s overall potential and nurtures a winning mentality in the students. Developing our students’ inner self is our mission which shall in turn provide them the perfect edge over others. Some salient features of Mahakal Group of Institutes are as follows: No. 1 IIRF ranking private Engineering College of Central India. 25 + Industry focus courses. 15000 + Alumni base. 10 + Auditoriums. 100 + Companies for placement every year. 6 Best Placement / Institute Awards. 25 + Startups. 5000 + Students enrolled. 100000+ Plants and trees for green healthy and safe campus. Smart classes upgraded classroom and cultivate education by opening doors to digital teaching.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="gallery">Acheivements And Glory</string>
+    <string name="gal">Gallery</string>
+    <string name="navigate">Navigate</string>
+    <string name="courses_offered">Courses Offered</string>
+    <string name="c">Courses</string>
+    <string name="college">Mahakal Institute OF Technology</string>
+    <string name="CSE">Computer Science Enginnering</string>
+    <string name="CSE1">Computer Science Engineering</string>
+    <string name="ME">Mechanical Engineering</string>
+    <string name="computer">Computer</string>
+    <string name="computerscience">ComputerScience</string>
+    <string name="mechanical">Mechanical</string>
+    <string name="electrical">Electrical</string>
+    <string name="ECE">Electronics and Communication</string>
+    <string name="Cse">Computer Science</string>
+    <string name="ec">Electronics And Communication</string>
+    <string name="ece"><![CDATA[Electonics & Communication]]></string>
+    <string name="information_technology">Information Technology</string>
+    <string name="ce">Civil Engineering</string>
+    <string name="MBA">Management Program (M.B.A.)</string>
+    <string name="pharmacy_program_b_pharm_m_pharm">Pharmacy Program (B. Pharm. / M. Pharm.)</string>
+    <string name="MCA">Master of Computer Application (M.C.A.)</string>
+    <string name="b_com_honors">B.Com(Honors)</string>
+    <string name="BSC">B.Sc. (Computer Science)</string>
+    <string name="Ba">Business Administration</string>
+    <string name="contacts">Contacts</string>
+    <string name="alumni">Alumni</string>
+    <string name="placements">Placements</string>
+    <string name="news">News</string>
+    <string name="campus">Campus</string>
+    <string name="why_choose_mit">Why Choose MIT</string>
+    <string name="exams">Exams</string>
+    <string name="notice">Notice</string>
+    <string name="mst_s">MST\'s</string>
+    <string name="placement">Placements</string>
+    <string name="events">Events</string>
+    <string name="Activities">Get Notified Of all Activities of MIT</string>
+    <string name="reg">Register</string>
+    <string name="signin">SignIn</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="phone">Phone</string>
+    <string name="password">Password</string>
+    <string name="joiningas">JoiningAs</string>
+    <string name="desig">Designation</string>
+    <string name="stud">Student</string>
+    <string name="post">Designation</string>
+    <string name="prompt_password">pass</string>
+    <string name="fullname">name</string>
+    <string name="prompt_email">email</string>
+    <string name="name">FullName</string>
+    <string name="well">MIT Institution welcomes you</string>
+    <string name="sign_in_to_continue">sign in to continue</string>
+    <string name="u">username</string>
+    <string name="designation">Designation</string>
+    <string name="s">Student</string>
+    <string name="professor">Professor</string>
+    <string name="register">Register</string>
+    <string name="use">UserName</string>
+    <string name="us">Username</string>
+    <string name="des">Designation</string>
+    <string name="we">MIT Institute Welcomes you</string>
+    <string name="login">Login</string>
+    <string name="log">Login</string>
+    <string name="sign_up">Don\'t have an account/Sign_up?</string>
+    <string name="vis">Vision</string>
+    <string name="loginstudent">StudentLogin</string>
+    <string name="login_stu">Student Login</string>
+    <string name="corner">Student Corner</string>
+    <string name="mit_instituter">MIT Instituter</string>
+    <string name="m1">MIT Institute</string>
+    <string name="student_corner">Student Corner</string>
+    <string name="fees_structure">Fees structure</string>
+    <string name="fees_submission">Fees_Submission</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="examination">Examination</string>
+    <string name="faq">FAQ</string>
+    <string name="result">Results</string>
+    <string name="faculties">Faculties</string>
+    <string name="enquiry">Enquiry</string>
+    <string name="feedback_or_suggestions">Feedback or Suggestions</string>
+    <string name="maintitle">MainTitle</string>
+    <string name="con">Contacts</string>
+    <string name="for_admission">For Admissions</string>
+    <string name="num">456783</string>
+    <string name="for_enquiry">For Enquiry</string>
+    <string name="about_exams">About Exams</string>
+    <string name="about_exam">About Exams</string>
+    <string name="about_placements">About Placements</string>
+    <string name="for_admissions">For Admissions</string>
+    <string name="adm">For Admissions</string>
+    <string name="about_campus">About Campus</string>
+    <string name="title_activity_events">EventsActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="upload">Upload</string>
+    <string name="descr">Description</string>
+    <string name="up">Upload</string>
+    <string name="list_of_events">List Of Events</string>
+    <string name="n">N</string>
+    <string name="CSE2">Computer Science Engineering</string>
+    <string name="cs">Computer Science Engineering</string>
+    <string name="get_course">Get Course</string>
+    <string name="technology">Technology</string>
+    <string name="management">Management</string>
+    <string name="diploma">Diploma</string>
+    <string name="explore_more">Explore more</string>
+    <string name="wer">Know All about MIT Institute</string>
+    <string name="mi">Know Everything About MIT Institute</string>
+    <string name="click_">Click Here</string>
+    <string name="know_more_about_mit_institute">Know More About MIT Institute</string>
+    <string name="click">Click Here</string>
+    <string name="welcome_to_the_student_login_page">Welcome to the Student Login Page</string>
+    <string name="click_here">Click Here</string>
+    <string name="login_to_your_account">Login to Your Account</string>
+    <string name="checke">Check Syllabus</string>
+    <string name="check_syllabus">Check Syllabus</string>
+    <string name="cli">Click Here</string>
+    <string name="exams_notification">Exams Notification</string>
+    <string name="chec">Check Here</string>
+    <string name="check_results">Check Results</string>
+    <string name="fees_struc">Fees Structure</string>
+    <string name="know_about_fees">Know About Fees</string>
+    <string name="college_enquiry">College Enquiry</string>
+    <string name="cl">Click Here</string>
+    <string name="results">Results</string>
+    <string name="submit_your_fees">Submit Your Fees</string>
+    <string name="feesub">Fees Submission</string>
+    <string name="alumni_stories_of_mit_group_of_institute">Alumni Stories of MIT Group Of Institute</string>
+    <string name="news_of_mit_institutes">News of MIT Institutes</string>
+    <string name="campus_of_mit_institute">Campus OF MIT Institute</string>
+    <string name="view_all_the_events">View all the events</string>
+    <string name="choose_file">Choose File</string>
+    <string name="enter_filename">Enter Filename</string>
+    <string name="uplo">upload</string>
+    <string name="show_uploads">show_uploads</string>
+    <string name="nam">Nam</string>
+</resources>
